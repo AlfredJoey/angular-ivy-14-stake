@@ -1,14 +1,10 @@
-import { EntityMetadataMap } from 'ngrx-data';
+import { EntityMetadataMap } from '@ngrx/data';
 
-const entityMetadata: EntityMetadataMap = {
-  Hero: {},
-  Villain: {},
+export const entityMetadata: EntityMetadataMap = {
+  // eslint-disable-next-line @typescript-eslint/naming-convention
+  JsonFormDataEnterMobile: {},
 };
-
-// because the plural of "hero" is not "heros"
-const pluralNames = { Hero: 'Heroes' };
 
 export const entityConfig = {
   entityMetadata,
-  pluralNames,
 };
