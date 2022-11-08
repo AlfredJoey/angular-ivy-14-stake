@@ -4,7 +4,6 @@ import { FormsModule } from '@angular/forms';
 
 import { AppComponent } from './app.component';
 import { HelloComponent } from './hello.component';
-import { environment } from '../../environments/environment';
 
 import {
   DefaultDataServiceConfig,
@@ -14,6 +13,7 @@ import {
 import { EffectsModule } from '@ngrx/effects';
 import { StoreModule } from '@ngrx/store';
 import { StoreDevtoolsModule } from '@ngrx/store-devtools';
+import { environment } from 'src/environments/environment';
 
 const defaultDataServiceConfig = {
   // root: environment.ngrx_default_root,
